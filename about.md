@@ -1,9 +1,8 @@
 ---
 layout: page
+title: Binoy Chitale
 permalink: /about/
 ---
-
-# Binoy Chitale
 
 ## Contact Info
 Email: [binoychitale@gmail.com](mailto:binoychitale@gmail.com)
