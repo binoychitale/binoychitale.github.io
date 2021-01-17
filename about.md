@@ -57,7 +57,7 @@ __K0s__ - Zero Friction Kubernetes — https://github.com/k0sproject/k0s
 __IndraDB__ - A graph database in Rust — https://github.com/indradb/indradb
 
 ## Volunteer Work
-Low-cost computer systems for underprivileged students (2018)
+__Low-cost computer systems for underprivileged students__ *(2018)* <br>
 Partnered with Vasundhara Charitable Trust, an NGO, to provide schools in the Tarapur-Dahanu area with low-cost Raspberry-Pi powered computers. <br>
 Configured these devices with Gcompris (an open-source learning platform), to enable computerized learning for students, and enable teachers to evaluate and review coursework in a single centralized repository.
 
