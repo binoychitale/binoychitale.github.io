@@ -47,14 +47,14 @@ Presented a paper titled *Driver Analysis Using Telematic Data* at the IEEE ICII
 
 ## Open source contributions
 
-__Prebid.js__ - Open source Header Bidding — https://github.com/prebid/Prebid.js <br>
+__Prebid.js__ - Open source Header Bidding — *[https://github.com/prebid/Prebid.js](https://github.com/prebid/Prebid.js)* <br>
 Contributed to Prebid.js, an open source Header Bidding library.
 
 
-__K0s__ - Zero Friction Kubernetes — https://github.com/k0sproject/k0s
+__K0s__ - Zero Friction Kubernetes — *[https://github.com/k0sproject/k0s](https://github.com/k0sproject/k0s)*
 
 
-__IndraDB__ - A graph database in Rust — https://github.com/indradb/indradb
+__IndraDB__ - A graph database in Rust — *[https://github.com/indradb/indradb](https://github.com/indradb/indradb)*
 
 ## Volunteer Work
 __Low-cost computer systems for underprivileged students__ *(2018)* <br>
