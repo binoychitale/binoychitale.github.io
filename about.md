@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Binoy Chitale
 permalink: /about/
 ---
 
