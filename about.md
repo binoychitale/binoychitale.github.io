@@ -13,11 +13,9 @@ permalink: /about/
 ## Work Experience
 
 ### Media.net (Directi)
-<sup> 
-Web Application Developer 2 (Jun 2019 - Jan 2021) <br>
-Web Application Developer   (Jun 2018 - Jun 2019) <br>
-Associate Web Developer     (Jun 2017 - Jun 2018) 
-</sup>
+*Web Application Developer 2 (Jun 2019 - Jan 2021)* <br>
+*Web Application Developer   (Jun 2018 - Jun 2019)* <br>
+*Associate Web Developer     (Jun 2017 - Jun 2018)* 
 
 - __Programmatic inventory targeting.__ Project owner and lead developer of Media.net’s ad inventory targeting system which enables programmatic, rule based targeting of ad inventory for Media.net’s demand partners. Our systems are deployed in data centres across the globe, and operate at high scale within tight latency and QoS bounds.
 
