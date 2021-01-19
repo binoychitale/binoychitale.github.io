@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Contact Info
 {: .table .table-bordered .table-striped }
-| [binoychitale@gmail.com](mailto:binoychitale@gmail.com) | [Github](https://github.com/binoychitale)  | [LinkedIn](https://www.linkedin.com/in/binoychitale/)
+| [binoychitale@gmail.com](mailto:binoychitale@gmail.com) | [Github](https://github.com/binoychitale)  | [LinkedIn](https://www.linkedin.com/in/binoychitale/) |
 
 
 ## Work Experience
