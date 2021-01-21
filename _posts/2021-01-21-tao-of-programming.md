@@ -26,6 +26,6 @@ Not so sexy now, is it?
 
 The point is that if modules are written with well defined APIs and state boundaries, rewriting modules can be quick, painless, and dare I say, fun! It’s natural for the requirements and scale of a system to evolve over time, and it is virtually impossible to predict and handle all the potential problems that come with scale. 
 
-And so it was that I went back to the team and told them of my epiphany. We implemented our plain old monolithic locking module, which exposes a well defined set of `lock()` and `release()` APIs. If there comes a day when it’s no longer enough, all we need do is rewrite(*:wince:*) the guts of the lock service, and everything just works. And that is the story of my run-in with the “Tao” of programming.
+And so it was that I went back to the team and told them of my epiphany. We implemented our plain old monolithic locking module, which exposes a well defined set of *`lock()`* and *`release()`* APIs. If there comes a day when it’s no longer enough, all we need do is rewrite(*:wince:*) the guts of the lock service, and everything just works. And that is the story of my run-in with the “Tao” of programming.
 
 
