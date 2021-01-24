@@ -37,7 +37,7 @@ In the wild, you will find that most applications have a layered cache architect
 
 - Fan out nature of applications. Generally, your application will serve clients that are spread out over a large area. Take our employee management system for example, which is queried by users from company offices all over the world.
 
-![arch_diagram]({{ site.baseurl }}/images/cache-is-king/proxy-diag.png)
+![arch_diagram]({{ site.baseurl }}/images/cache-is-king/proxy-diag.jpg)
 *A diagram describing the fan-out nature of applications*
 
 
@@ -45,7 +45,7 @@ In the wild, you will find that most applications have a layered cache architect
 We can cache our application’s data at different levels of specificity. __Specificity__ here means how many inputs hit the same cache object. The higher the number the inputs mapping to a single cache object, the less the specificity. For example, let's take a snapshot of our employee table, and see how we can cache our data at different levels of specificity.
 
 
-![cache_specificity]({{ site.baseurl }}/images/cache-is-king/cache_specificity.png)
+![cache_specificity]({{ site.baseurl }}/images/cache-is-king/cache_specificity.jpg)
 *C1 is a cached snapshot of the table, C2 is a cached object containing all rows with Location = CA and C3 is a cached object containing rows with Location=CA and Department = Legal*
 
 __C1__ is cached with the __lowest__ specificity. It’s basically just a cached snapshot of the database. __Any__ input will map to the C1 object. For example, consider two queries:
@@ -75,7 +75,7 @@ Let us now go ahead and design a cache architecture for our employee management 
 ### Placing our caches
 
 
-![cache_diag]({{ site.baseurl }}/images/cache-is-king/cache_diag.png)
+![cache_diag]({{ site.baseurl }}/images/cache-is-king/cache_diag.jpg)
 *A diagram depicting the placement of caches*
 
 
@@ -97,7 +97,7 @@ So in our example, we will choose a __low__ specificity cache for the DB layer, 
 The storage efficiency of caches generally decreases as the specificity __increases__. The reason is that the data in cached objects generally overlaps when specificity is high. Lets understand this with an example from our employee management system:
 
 
-![cache_diag]({{ site.baseurl }}/images/cache-is-king/cache_specificity_2.png)
+![cache_diag]({{ site.baseurl }}/images/cache-is-king/cache_specificity_2.jpg)
 
 As seen above, data in the C2 caches overlap (when multiple locations are set), whereas the C1 cache is a monolithic cache containing all the rows in the database.
 
@@ -105,7 +105,7 @@ As seen above, data in the C2 caches overlap (when multiple locations are set), 
 
 Now that we’ve placed our caches and decided their specificity, let's put it all together:
 
-![cache_diag]({{ site.baseurl }}/images/cache-is-king/arch_with_specificity.png)
+![cache_diag]({{ site.baseurl }}/images/cache-is-king/arch_with_specificity.jpg)
 
 Above we see a multi-layered cache architecture with high specificity proxy caches and a low specificity DB cache to cache rows of the database.
 
