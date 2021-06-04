@@ -29,7 +29,7 @@ permalink: /about/
 
 ## Education
 - __Stony Brook University__ *(2021 - Present)* <br>
-M. S (Computer Science) 
+M. S (Computer Science) <br>
 GPA - __3.84__
 
 - __Dwarkadas J Sanghvi College of Engineering, Mumbai__ *(2013 - 2017)* <br>
