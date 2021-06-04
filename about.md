@@ -17,7 +17,7 @@ permalink: /about/
 *Web Application Developer   (Jun 2018 - Jun 2019)* <br>
 *Associate Web Developer     (Jun 2017 - Jun 2018)* 
 
-- __Programmatic inventory targeting.__ Project owner and lead developer of Media.net’s ad inventory targeting system which enables programmatic, rule based targeting of ad inventory for Media.net’s demand partners. Our systems are deployed in data centres across the globe, and operate at high scale within tight latency and QoS bounds.
+- __Programmatic Rule Engine.__ Project owner and lead developer of Media.net’s real-time rule based ad targeting system which enables programmatic targeting of ad inventory for Media.net’s demand partners. Our systems are deployed in data centres across the globe, and operate at high scale within tight latency and QoS bounds.
 
 - __Client-side Header Bidding through Prebid.js.__ Responsible for writing clean and efficient Javascript enabling Media.net to bid on ad-inventory through the Prebid.js Header Bidding library.
 
@@ -30,11 +30,11 @@ permalink: /about/
 ## Education
 - __Stony Brook University__ *(2021 - Present)* <br>
 M. S (Computer Science) 
-
+GPA - __3.84__
 
 - __Dwarkadas J Sanghvi College of Engineering, Mumbai__ *(2013 - 2017)* <br>
 Bachelor of Engineering (Computer Science) <br>
-CGPA - __8.48__ 
+CGPA - __8.48__ / 10 
 
 ## Projects
 
